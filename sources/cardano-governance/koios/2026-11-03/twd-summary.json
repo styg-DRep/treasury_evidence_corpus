@@ -1,0 +1,52 @@
+{
+  "retrieved_at_utc": "2026-11-03T20:42:44.166123+00:00",
+  "source": "https://api.koios.rest/api/v1/proposal_list",
+  "tip_epoch": 665,
+  "all_governance_actions": 162,
+  "governance_action_types": {
+    "TreasuryWithdrawals": 107,
+    "HardForkInitiation": 2,
+    "InfoAction": 36,
+    "NewConstitution": 4,
+    "NewCommittee": 4,
+    "ParameterChange": 9
+  },
+  "twd_actions": 107,
+  "first_submitted_epoch": 566,
+  "last_submitted_epoch": 662,
+  "first_enacted_epoch": 571,
+  "nonzero_submission_epochs": 33,
+  "epoch_table_range": [
+    537,
+    665
+  ],
+  "status_counts": {
+    "enacted": 70,
+    "expired": 34,
+    "active_or_unresolved": 3
+  },
+  "enacted_withdrawal_ada": 804427136.0,
+  "reconciliation_vs_third_party_2026_11_03": {
+    "expected": {
+      "twd_actions": 107,
+      "enacted": 70,
+      "not_approved": 34,
+      "live": 3,
+      "enacted_ada_approx": 804427136
+    },
+    "observed": {
+      "twd_actions": 107,
+      "enacted": 70,
+      "not_approved": 34,
+      "live": 3,
+      "enacted_ada": 804427136
+    }
+  },
+  "notes": [
+    "Derived statuses reflect latest lifecycle fields, not a reconstruction of status at each historic epoch.",
+    "Status precedence: enacted > expired > dropped > ratified (db-sync also sets dropped_epoch on expiry).",
+    "Enacted counts use enacted_epoch; all submission counts use proposed_epoch.",
+    "withdrawal_* columns are per governance action; one action can pay several recipients.",
+    "Third-party figures are checks, not targets; investigate gaps rather than forcing agreement."
+  ]
+}
