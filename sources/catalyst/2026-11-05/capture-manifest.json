@@ -1,0 +1,73 @@
+{
+  "notes": "Captured HTTP responses, NOT automatically verified full rendered pages. Check permission and record completeness before redistribution.",
+  "sources": [
+    {
+      "id": "fund-02-project-200008",
+      "source_url": "https://projectcatalyst.io/funds/2/challenge/liqwidcardano-defi-lending-markets",
+      "retrieved_utc": "2026-11-05T06:34:46.495416+00:00",
+      "capture_method": "urllib direct HTTP; does not render JavaScript",
+      "http_status": 200,
+      "final_url": "https://projectcatalyst.io/funds/2/challenge/liqwidcardano-defi-lending-markets",
+      "content_type": "text/html; charset=utf-8",
+      "length_bytes": 241852,
+      "sha256": "d16484d0d835cabb1c10b8a44493625590253002b503a79421a4c1d96cd9d390",
+      "local_file": "fund-02-project-200008.response-body",
+      "project_id_present_in_raw_body": true,
+      "capture_verification": "sha256_and_length_verified_against_supplied_manifest",
+      "body_classification": "substantive_server_rendered_project_page",
+      "embedded_project_data": true,
+      "verified_complete_milestone_records": null
+    },
+    {
+      "id": "fund-08-project-800352",
+      "source_url": "https://projectcatalyst.io/funds/8/accelerate-decentralized-identity/universal-resolver-for-didprism",
+      "retrieved_utc": "2026-11-05T06:34:47.339734+00:00",
+      "capture_method": "urllib direct HTTP; does not render JavaScript",
+      "http_status": 200,
+      "final_url": "https://projectcatalyst.io/funds/8/accelerate-decentralized-identity/universal-resolver-for-didprism",
+      "content_type": "text/html; charset=utf-8",
+      "length_bytes": 251155,
+      "sha256": "fb1967a85040a3a695bfb514075f7524049006e973c9499592c2084eec25aa0c",
+      "local_file": "fund-08-project-800352.response-body",
+      "project_id_present_in_raw_body": true,
+      "capture_verification": "sha256_and_length_verified_against_supplied_manifest",
+      "body_classification": "substantive_server_rendered_project_page",
+      "embedded_project_data": true,
+      "verified_complete_milestone_records": null
+    },
+    {
+      "id": "fund-14-project-1400065",
+      "source_url": "https://projectcatalyst.io/funds/14/cardano-open-developers/hydra-point-of-sale-accept-ada-cnts-in-retail-and-invoicing",
+      "retrieved_utc": "2026-11-05T06:34:48.193569+00:00",
+      "capture_method": "urllib direct HTTP; does not render JavaScript",
+      "http_status": 200,
+      "final_url": "https://projectcatalyst.io/funds/14/cardano-open-developers/hydra-point-of-sale-accept-ada-cnts-in-retail-and-invoicing",
+      "content_type": "text/html; charset=utf-8",
+      "length_bytes": 274511,
+      "sha256": "ce34ab2b6bb0dd7d5aa17b11e14d24341607875356736a0f0a37b9478ec51a14",
+      "local_file": "fund-14-project-1400065.response-body",
+      "project_id_present_in_raw_body": true,
+      "capture_verification": "sha256_and_length_verified_against_supplied_manifest",
+      "body_classification": "substantive_server_rendered_project_page",
+      "embedded_project_data": true,
+      "verified_complete_milestone_records": null
+    },
+    {
+      "id": "fund-14-milestones-1400065",
+      "source_url": "https://milestones.projectcatalyst.io/projects/1400065",
+      "retrieved_utc": "2026-11-05T06:34:48.996382+00:00",
+      "capture_method": "urllib direct HTTP; does not render JavaScript",
+      "http_status": 200,
+      "final_url": "https://milestones.projectcatalyst.io/projects/1400065",
+      "content_type": "text/html; charset=utf-8",
+      "length_bytes": 546,
+      "sha256": "dedbffb57588b5a5ac483edb9fd7fa6b6d759b8725b376909dc6d8f8b5e259f1",
+      "local_file": "fund-14-milestones-1400065.response-body",
+      "project_id_present_in_raw_body": false,
+      "capture_verification": "sha256_and_length_verified_against_supplied_manifest",
+      "body_classification": "javascript_application_shell_only",
+      "embedded_project_data": false,
+      "verified_complete_milestone_records": false
+    }
+  ]
+}
