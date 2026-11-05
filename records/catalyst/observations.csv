@@ -1,0 +1,23 @@
+catalyst_project_id,source_id,field,value,unit,economic_or_evidentiary_meaning,assertion_status,source_locator,qualification
+200008,S5,requested_total,38500,USD,original_proposer_request,proposer_stated,About this idea > Total Funds Requested,not equivalent to archived current allocated total
+200008,S5,proposed_request_ada,385000,ADA,proposer_stated_approximate_conversion,proposer_stated,About this idea > 385000,uses roughly USD 0.10 per ADA
+200008,S5,reported_allocated,41195,USD,current_administrative_allocation,administrator_reported,Total to date,unreconciled against original request
+200008,S5,reported_distributed,41195,USD,current_administrative_distribution,administrator_reported,Distributed,not externally audited payment or expenditure
+200008,S5,appinventiv,20000,USD,planned_contractor_budget,proposer_stated,Requested Development Funds,not actual payment
+200008,S5,tweag,16000,USD,planned_specialist_budget,proposer_stated,Requested Development Funds,10 days at USD 800/day is internally inconsistent with USD 16000
+200008,S5,tweag_days,10,days,planned_duration,proposer_stated,Tweag > Days,
+200008,S5,tweag_rate,800,USD/day,planned_unit_rate,proposer_stated,Tweag > Unit Price,not derived spending
+200008,S5,project_status,Complete,,current_administrative_status,administrator_reported,Total to date,closeout attachment not retrieved
+800352,S3,requested_total,6425,USD,proposer_request,proposer_stated,FEASIBILITY > TOTAL BUDGET,
+800352,S3,reported_distributed,6425,USD,current_administrative_distribution,administrator_reported,Total to date > Distributed,not verified expenditure
+800352,S3,proposed_labor_hours,60,hours,estimated_labor_quantity,proposer_stated,FEASIBILITY > Budget,40 + 20 estimated
+800352,S3,proposed_labor_rate,100,USD/hour,estimated_labor_rate,proposer_stated,FEASIBILITY > Budget,not realized rate
+800352,S3,driver_development,4000,USD,proposed_labor_budget,proposer_stated,FEASIBILITY > Budget,40 hours
+800352,S3,fork_docker_hosting,2000,USD,proposed_labor_budget,proposer_stated,FEASIBILITY > Budget,20 hours
+800352,S3,aws,400,USD,proposed_infrastructure_budget,proposer_stated,FEASIBILITY > Budget,annual estimate
+800352,S3,domain_ssl,25,USD,proposed_infrastructure_budget,proposer_stated,FEASIBILITY > Budget,
+800352,S3,project_status,Complete,,current_administrative_status,administrator_reported,Total to date,completion not independently verified
+1400065,S4,requested_total,95000,ADA,proposer_request,proposer_stated,Proposal Summary > Budget,
+1400065,S4,reported_distributed,95000,ADA,current_administrative_distribution,administrator_reported,Total to date,not verified realized expenses
+1400065,S4M,som_allocated_warning,0,ADA,public_displayed_statement_of_milestones_allocation,platform_display,Error in budget allocated to Statement of Milestones,inconsistent with four milestone budgets; do not replace
+1400065,S4,project_status,Complete,,current_administrative_status,administrator_reported,Status,not a technical audit
