@@ -22,17 +22,11 @@ The bundle resides in a case directory because it records relations between acti
 - `action-index.csv` — governance action ID lookup for the bundle (not intended to encode a universal proposal schema).
 - `build_case.py` — deterministic extractor for all files above *except* `relationships.csv`.
 
-## Minimal relation vocabulary v0.2
+## Relationship classification
 
-`continuation_of`: a later funding request explicitly identifies itself as continuing/following an earlier withdrawal; this is a curator classification based on the proposer's text, not a proven equivalence of scopes or project outcomes.
+The three reviewed assertions in `relationships.csv` use the shared **`schemas/relations-v0.3.md`** vocabulary, which retains the Amaru v0.2 definitions (`continuation_of`, `references_prior_budget`, `follows_budget_statement`) without reclassifying any row. The vocabulary distinguishes source-author assertions from curator classification and explains the `source_locator` / `lookup_transformation` fields.
 
-`references_prior_budget`: the later action explicitly links a preceding budget Info Action by governance action ID.
-
-`follows_budget_statement`: a withdrawal proposal explicitly links an earlier budget statement by transaction hash; the lookup to the Info Action ID is a recorded transformation.
-
-`assertion_type` reports what the proposer says. `relationship` is a **versioned classification** of that statement. `source_locator` grammar: `rows[proposal_id=<full ID>].meta_json.body.<field>` means find exactly one `proposal_id` in the pinned JSON's `rows` array, then navigate the named JSON fields. Text section suffixes after ` > ` designate a heading within the string, not a JSON key. `lookup_transformation` describes any additional matching step.
-
-Info Actions have no on-chain enacted state under CIP-1694; A0's observed `expired_epoch=563` and `dropped_epoch=564` do not disprove a proposer's claim that an Info Action was *approved* in the sense of receiving a favorable vote. Vote tallies and relevant thresholds **are not in this `proposal_list` extraction** and have not been checked here.
+Info Actions have no on-chain enacted state under CIP-1694; A0's observed `expired_epoch=563` and `dropped_epoch=564` do not disprove a proposer's claim that an Info Action was *approved* in the sense of receiving a favorable vote. Vote tallies and relevant thresholds are **not in this `proposal_list` extraction** and have not been checked here.
 
 ## Reproduction
 
