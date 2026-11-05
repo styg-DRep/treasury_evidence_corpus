@@ -1,1 +1,1 @@
-*.csv text eol=lf   
+records/**/*.csv text eol=lf
