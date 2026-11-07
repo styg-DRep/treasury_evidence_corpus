@@ -1,0 +1,7 @@
+assertion_id,source_date,assertion_kind,subject,object,amount,unit,source_ids,epistemic_status,boundary
+C01,2026-04-07,manager_role,Draper Dragon,Orion Fund,,,W03,institutional announcement,"Fund management role, not evidence of payment or custody"
+C02,2026-04-07,constitutional_administrator_role,Cardano Foundation,Orion Fund,,,W03,institutional announcement,Distinct from investment manager
+C03,2026-10-06,reported_investment_in,Draper Dragon and its Orion Fund,Xverse,,,W01,manager-attested,"Investment amount, financial settlement and treasury-derived share undisclosed"
+C04,2026-10-05,reported_round_participation,Draper Dragon,Xverse,,,W02,recipient-attested,Xverse does not specifically identify the Orion LP or its invested amount
+C05,2026-05-07,fund_interests_offering_total,Draper Dragon Orion Fund LP,investors in fund,80000000,USD,W05,issuer-filed Form D,Not the size of an investment in Xverse or a treasury disbursement
+C06,2026-05-07,fund_interests_amount_sold,Draper Dragon Orion Fund LP,investors in fund,75000000,USD,W05,issuer-filed Form D,Reported sale of fund interests; not actual project spending
